@@ -60,9 +60,30 @@ body {
 }
 
 .sectionwork {
-    padding: 3rem 4rem 0rem 4rem;
+    padding: 1rem 4rem 0rem 4rem;
     font-weight: bold;
 }
+.textblock {
+    width: 92%;          /* keeps it readable */
+    margin: 2rem auto;         /* centers the card */
+    padding-top: 1.6rem;
+    padding-bottom: 3rem;
+    
+    border: 2px solid #e5e5e5; /* card border */
+    border-radius: 16px;       /* rounded corners */
+    
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+.textblock {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.textblock:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
 .work1 {
     padding: 0rem 4rem 0rem 4rem;
 }
@@ -98,6 +119,10 @@ section {
   height: 260px;
   width: auto;
   border-radius: 12px;
+}
+.images img:hover {
+  transform: translate(-4px, -1px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
 }
 
 @media (max-width: 768px) {
