@@ -44,8 +44,8 @@ body {
 }
 
 .languages img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     object-fit: contain; /* keeps logo ratio */
 }
 
@@ -109,8 +109,8 @@ section {
   }
 
   .languages img {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     object-fit: contain; /* keeps logo ratio */
   }  
   .main {
@@ -123,6 +123,7 @@ section {
   .emailbutton {
     padding-left: 2.8rem;
     padding-right: 2.8rem;
+    
   }
 }
 
