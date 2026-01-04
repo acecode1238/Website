@@ -103,7 +103,9 @@ section {
   section {
     padding-left: 0.9rem;
   }
-  
+  .main {
+    font-size: 0.9rem;
+  }
   .section1,
   .sectionwork,
   .work1,
