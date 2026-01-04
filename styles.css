@@ -19,6 +19,9 @@ html, body {
   height: auto;
   border-radius: 50%;
 }
+.bg-video::-webkit-media-controls {
+    display: none;
+  }
 .bg-video {
     position: fixed;
     top: 0;
