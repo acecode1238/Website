@@ -95,3 +95,17 @@ section {
   border-radius: 12px;
 }
 
+@media (max-width: 768px) {
+  .brand-logo {
+    width: 48px;
+  }
+
+  .section1,
+  .work1,
+  .work2,
+  .sectionwork {
+    padding: 2rem;
+  }
+}
+
+
