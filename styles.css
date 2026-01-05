@@ -1,5 +1,6 @@
 html, body {
   width: 100%;
+  min-height: 100vh;
 }
 .navbar {
   font-size: 1.9rem;
@@ -27,6 +28,8 @@ body {
     #fef5f5;
   background-size: 200% 200%;
   animation: layers 5s ease-in-out infinite;
+  display: flex;
+  flex-direction: column;
 }
 
 @keyframes layers {
@@ -103,7 +106,7 @@ body {
     padding: 0rem 4rem 0rem 4rem;
 }
 .section2 {
-   padding: 0rem 4rem 3rem 4rem;
+   padding: 2rem 4rem 3rem 4rem;
 }
 
 .sectionwork {
@@ -178,6 +181,12 @@ section {
 .images img:hover {
   transform: scale(1.03);
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+footer {
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: auto;
 }
 
 @media (max-width: 768px) {

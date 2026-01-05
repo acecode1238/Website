@@ -23,7 +23,7 @@ const lines = [
   "$ ./whoami",
   "",
   "Hello, World",
-  "Welcome to the never ending land of magic",
+  "Welcome to my site",
   "Scroll to discover more"
 ];
 
@@ -44,7 +44,7 @@ function typeTerminal() {
     terminal.textContent += "\n";
     lineIndex++;
     charIndex = 0;
-    timeoutId = setTimeout(typeTerminal, 300);
+    timeoutId = setTimeout(typeTerminal, 200);
   }
 }
 
