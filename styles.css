@@ -118,6 +118,7 @@ body {
     
     background-color: #ffffff;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    overflow: hidden
 }
 .textblock {
     transition: transform 0.25s ease, box-shadow 0.25s ease;
@@ -219,7 +220,7 @@ section {
   display: flex;
   justify-content: center;
   width: 100%;  /* 🔥 centers horizontally */
-  padding: 0.5rem 0rem 1rem 0rem;
+  padding: 0rem 0rem 2rem 0rem;
 }
   .section1,
   .sectionwork,
