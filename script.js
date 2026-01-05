@@ -22,9 +22,8 @@ const lines = [
   "$ cd ChengGuan",
   "$ ./whoami",
   "",
-  "Hello World",
-  "My favourite countries are germany and taiwan",
-  "welcome to the never ending land of magic",
+  "Hello, World",
+  "Welcome to the never ending land of magic",
   "Scroll to discover more"
 ];
 
