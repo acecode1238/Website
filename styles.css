@@ -206,13 +206,10 @@ footer {
   font-size: 1rem;
   margin-top: auto;
 }
-
 @media (max-width: 768px) {
   .brand-logo {
     width: 60px;
   }
-}
-@media (max-width: 768px) {
   section {
     padding-left: 0.6rem;
   }
