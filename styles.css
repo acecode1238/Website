@@ -220,7 +220,6 @@ footer {
     font-size: 1.0rem;
     display: inline;
   }
-
   .languages img {
     width: auto;
     height: 32px;
@@ -238,7 +237,7 @@ footer {
     font-size: 1.05rem;
   }
   .textblock {
-    padding-top: 0.0rem;
+    padding-top: 1.0rem;
     padding-bottom: 0rem;
   }
   #toggle img {
