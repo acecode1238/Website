@@ -19,16 +19,13 @@ html, body {
   height: auto;
   border-radius: 50%;
 }
-
 body {
   min-height: 100vh;
-  background: linear-gradient(to bottom right, #cccccc, #c3ecff);
+  background: linear-gradient(to right, #ffffff, #c3ecff);
   background-size: 200% 200%;
-  animation: layers 5s ease-in-out infinite;
   display: flex;
   flex-direction: column;
 }
-
 @keyframes layers {
   0%   { background-position: 0% 0%, 100% 100%; }
   50%  { background-position: 100% 0%, 0% 100%; }
@@ -58,14 +55,12 @@ body {
   transform: scale(1.1);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
-
 .button-center {
   display: flex;
   justify-content: center;
   width: 100%;  /* 🔥 centers horizontally */
   padding: 1rem 0rem 2rem 0rem;
 }
-
 #terminal {
   background: #0f172a;
   color: #e5e7eb;
@@ -87,18 +82,15 @@ body {
     margin: 0;
     text-align: left;
 }
-
 .languages li {
     font-size: 1.4rem;
     display: inline;
 }
-
 .languages img {
     width: auto;
     height: 42px;
     object-fit: contain; /* keeps logo ratio */
 }
-
 .section1 {
     padding: 0rem 4rem 0rem 4rem;
 }
@@ -149,7 +141,6 @@ body {
     background-clip: padding-box;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
-
 .textblock:hover {
     transform: translateY(-4px);
     box-shadow:
@@ -157,7 +148,6 @@ body {
     inset 0 0 0 2px rgba(183,183,183,0.6),
     0 18px 40px rgba(0, 0, 0, 0.12);
 }
-
 .work1 {
     padding: 0rem 4rem 0rem 4rem;
 }
@@ -165,7 +155,6 @@ body {
 .work2 {
     padding: 2rem 4rem 0rem 4rem;
 }
-
 section {
     padding: 1rem 3rem 0rem 3rem;
 }
@@ -189,7 +178,6 @@ section {
   overflow-y: hidden;
   white-space: nowrap;
 }
-
 .images img {
   flex: 0 0 auto;
   height: 260px;
